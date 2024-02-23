@@ -1,0 +1,79 @@
+thispagestyle{cover}%
+\hspace{-0.5cm}
+
+\begin{center}
+{\large{\textbf{{Ministère de l’Enseignement Supérieur et de la Recherche Scientifique}}}}\\
+\vskip0.5cm
+{\Large{\textbf{{Université de la Manouba}}}}\\
+\vskip0.5cm
+{\Large{\textbf{{Institut Supérieur des Arts Multimédias}}}}\\
+\vskip1.5cm
+\includegraphics[width=0.24\columnwidth]{./Figures/Images/EPI digital.png}
+\end{center}
+
+\vskip0.8cm
+
+\begin{center}
+{\Large{\textbf{{RAPPORT DU STAGE DE FIN D'ETUDE}}}}\\
+\vskip0.5cm
+
+% {\textbf{Présenté en vue de l'obtention du}}\\
+% {\textbf{Diplôme National d'Ingénieur en Sciences Appliquées et Technologiques}}\\
+% {\textbf{Spécialité : Génie Logiciel et Systèmes d'Information}}\\
+{}
+\end{center}
+
+\begin{center}
+\textrm{Par}\\
+\vskip0.2cm
+{
+    \ifthenelse{\boolean{isBinomal}}
+    {% IF TRUE
+        \begin{minipage}[l]{0.5\columnwidth}
+            \begin{center}{\large\textbf{\@author}}\end{center}
+        \end{minipage}
+        
+    }
+    {\large\textbf{\@author}}
+}
+\vskip12mm
+
+\definecolor{isiBlue}{RGB}{31, 78, 121}
+
+\begin{changemargin}{-9mm}{0cm}
+\begin{minipage}[l]{1.1\columnwidth}
+\begin{tcolorbox}[colframe=isiBlue,colback=white,boxrule=0pt,toprule=3pt,bottomrule=3pt,arc=2pt,top=0mm,right=0mm,left=0mm,bottom=0mm,boxsep=0.5mm]{
+    \begin{tcolorbox}[colframe=isiBlue,colback=white, boxrule=0pt,toprule=1pt,bottomrule=1pt,arc=1pt,enlarge bottom by=-0.9mm, auto outer arc]
+        \centering
+        {\huge\textbf{\@title}}
+    \end{tcolorbox}
+}
+\end{tcolorbox}
+\end{minipage}
+\end{changemargin}
+
+\end{center}
+\vskip8mm
+
+% \begin{center}
+% \begin{minipage}[c]{0.8\columnwidth}
+% Encadrant professionnel: \hspace*{0.5cm} \textbf{\@proFramerName} \hspace*{0.5cm} Chef d'équipe SIV\\
+% \end{minipage}
+% \hfill
+% \begin{minipage}[c]{0.8\columnwidth}
+% Encadrante académique: \hspace*{0.5cm} \textbf{\@academicFramerName} \hspace*{0.5cm} Maître Assistante
+% \end{minipage}
+% \hfill
+% \end{center}
+
+\vskip1cm
+
+\begin{center}
+{Réalisé au sein de \@companyName}\\
+\begin{figure}[h]
+\centering
+{\includegraphics[width=0.4\columnwidth]{img/logo_kalamar.png}
+\end{figure}
+\end{center}
+
+\afterpage{\blankpage}
